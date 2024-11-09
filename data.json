@@ -1,0 +1,84 @@
+[
+    {
+      "name": "Leonardo DiCaprio",
+      "image": "https://th.bing.com/th/id/OIP.MqnOa0YvDmvI7JxvWYXwuAHaKa?w=208&h=294&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "gender": "male",
+      "dob": "1974-11-11",
+      "hometown": "Los Angeles, California",
+      "occupation": "Actor",
+      "marital_status": "Single"
+    },
+    {
+      "name": "Emma Watson",
+      "image": "https://th.bing.com/th/id/OIP.5tHncSj2R7dvJIfCFVLc4wHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "gender": "female",
+      "dob": "1990-04-15",
+      "hometown": "Paris, France",
+      "occupation": "Actress",
+      "marital_status": "Single"
+    },
+    {
+        "name": "Emma Watson",
+        "image": "https://th.bing.com/th/id/OIP.5tHncSj2R7dvJIfCFVLc4wHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "gender": "female",
+        "dob": "1990-04-15",
+        "hometown": "Paris, France",
+        "occupation": "Actress",
+        "marital_status": "Single"
+      },
+      {
+        "name": "Emma Watson",
+        "image": "https://th.bing.com/th/id/OIP.5tHncSj2R7dvJIfCFVLc4wHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "gender": "female",
+        "dob": "1990-04-15",
+        "hometown": "Paris, France",
+        "occupation": "Actress",
+        "marital_status": "Single"
+      },
+      {
+        "name": "Emma Watson",
+        "image": "https://th.bing.com/th/id/OIP.5tHncSj2R7dvJIfCFVLc4wHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "gender": "female",
+        "dob": "1990-04-15",
+        "hometown": "Paris, France",
+        "occupation": "Actress",
+        "marital_status": "Single"
+      },
+      {
+        "name": "Emma Watson",
+        "image": "https://th.bing.com/th/id/OIP.5tHncSj2R7dvJIfCFVLc4wHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "gender": "female",
+        "dob": "1990-04-15",
+        "hometown": "Paris, France",
+        "occupation": "Actress",
+        "marital_status": "Single"
+      },
+      {
+        "name": "Emma Watson",
+        "image": "https://th.bing.com/th/id/OIP.5tHncSj2R7dvJIfCFVLc4wHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "gender": "female",
+        "dob": "1990-04-15",
+        "hometown": "Paris, France",
+        "occupation": "Actress",
+        "marital_status": "Single"
+      },
+      {
+        "name": "Emma Watson",
+        "image": "https://th.bing.com/th/id/OIP.5tHncSj2R7dvJIfCFVLc4wHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "gender": "female",
+        "dob": "1990-04-15",
+        "hometown": "Paris, France",
+        "occupation": "Actress",
+        "marital_status": "Single"
+      },
+      {
+        "name": "Emma Watson",
+        "image": "https://th.bing.com/th/id/OIP.5tHncSj2R7dvJIfCFVLc4wHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "gender": "female",
+        "dob": "1990-04-15",
+        "hometown": "Paris, France",
+        "occupation": "Actress",
+        "marital_status": "Single"
+      }
+  ]
+  
