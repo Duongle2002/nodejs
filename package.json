@@ -1,13 +1,19 @@
 {
-  "name": "ltmnm",
-  "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
+  "name": "ktra",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon app.js"
   },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~3.1.10",
+    "express": "~4.21.1",
+    "http-errors": "~1.6.3",
+    "ktra": "file:",
+    "mongoose": "^8.7.3",
+    "morgan": "~1.9.1",
+    "nodemon": "^3.1.7"
+  }
 }

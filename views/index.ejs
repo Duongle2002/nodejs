@@ -1,0 +1,70 @@
+<%- include('layouts/header') %>
+<main>
+    <div class="container mt-5 bg-danger-subtle p-5 rounded">
+        <h1 class="text-center mb-4">Search Users</h1>
+
+        <div class="row">
+            <!-- Search Form - Left Column (col-4) -->
+            <div class="col-4">
+                <form action="/search" method="GET" class="row g-3">
+                    <div class="col-12">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" name="name" class="form-control" id="name">
+                    </div>
+                    <div class="col-12">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="text" name="email" class="form-control" id="email">
+                    </div>
+                    <div class="col-12">
+                        <label for="duty" class="form-label">Duty</label>
+                        <select name="duty" class="form-select" id="duty">
+                            <option value="">Select Duty</option>
+                            <option value="Nhân Viên">Employee</option>
+                            <option value="Trưởng Phòng">Manager</option>
+                            <option value="Giám Đốc">Director</option>
+                        </select>
+                    </div>
+                    <div class="col-6">
+                        <label for="ageMin" class="form-label">Min Age</label>
+                        <input type="number" name="ageMin" class="form-control" id="ageMin">
+                    </div>
+                    <div class="col-6">
+                        <label for="ageMax" class="form-label">Max Age</label>
+                        <input type="number" name="ageMax" class="form-control" id="ageMax">
+                    </div>
+                    <div class="col-12 text-center">
+                        <button type="submit" class="btn btn-primary mt-3">Search</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Results Table - Right Column (col-8) -->
+            <div class="col-8">
+                <h2>Results</h2>
+                <div style="max-height: 500px; overflow-y: auto;">
+                    <table class="table table-striped">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Duty</th>
+                                <th>Age</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <% users.forEach(user => { %>
+                                <tr onclick="window.location.href='/user/<%= user._id %>'" style="cursor: pointer;">
+                                    <td><%= user.name %></td>
+                                    <td><%= user.email %></td>
+                                    <td><%= user.duty %></td>
+                                    <td><%= user.age %></td>
+                                </tr>
+                            <% }) %>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<%- include('layouts/footer') %>

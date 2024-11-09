@@ -1,0 +1,25 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.table th {
+  position: sticky;  /* Makes the header sticky */
+  top: 0;            /* Positions the sticky header at the top */
+  z-index: 1;       /* Ensure the header appears above the table rows */
+  background-color: #f8f9fa; /* Match the header background with your table */
+}

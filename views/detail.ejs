@@ -1,0 +1,23 @@
+<%- include('layouts/header') %>
+<main class="container mt-5">
+
+    <div class="card text-center bg-info-subtle mb-5" style="max-width: 600px; margin: 0 auto;">
+        <div class="card-header bg-primary text-white">
+            <h5 class="card-title"><strong>Danh Bạ:</strong> <%= user.id %></h5>
+
+        </div>
+        <div class="card-body">
+            <h5 class="card-title"><strong>Name:</strong> <%= user.name %></h5>
+            <p class="card-text"><strong>Email:</strong> <%= user.email %></p>
+            <p class="card-text"><strong>PhoneNumber:</strong> <%= user.phoneNumber %></p>
+            <p class="card-text"><strong>Address:</strong> <%= user.address %></p>
+            <p class="card-text"><strong>Duty:</strong> <%= user.duty %></p>
+            <p class="card-text"><strong>Age:</strong> <%= user.age %></p>
+        </div>
+        <div class="card-footer text-muted">
+            User Information
+        </div>
+    </div>
+
+</main>
+<%- include('layouts/footer') %>
