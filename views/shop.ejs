@@ -1,0 +1,91 @@
+<%- include('layouts/header') %>
+
+        <main class="p-5">
+              <nav class="navbar bg-body-tertiary p-3" style="background-color: #fbe9e9;">
+                <div class="container-fluid " style="padding: 0rem 10rem;">
+                    <ul class="nav">
+                        <li class="navbar-brand">
+                            <a style="text-decoration: none;" href="#"> <i class="bi bi-sliders"></i> Filter</a>
+                        </li>
+                        
+                        <li class="navbar-brand">
+                            <a style="text-decoration: none;" href="#"><i class="bi bi-grid-fill"></i></a>
+                          </li>
+                        <li class="navbar-brand">
+                            <a style="text-decoration: none;" href="#"><i class="bi bi-distribute-vertical"></i></a>
+                        </li>
+                        <li class="navbar-brand">
+                            <a class="navbar-brand">  I Showing 1- 16 of 32 results</a>
+                        </li>
+                      </ul>
+                  
+                  
+                  <div class="d-flex" role="search">
+                    <ul class="nav">
+                        <li class="navbar-brand">
+                            <p>Show</p>
+                        </li>
+                        <li class="navbar-brand">
+                           <input type="text" placeholder="16" style="height: 2rem; width: 2rem;">
+                        </li>
+                        <li class="navbar-brand">
+                            <p>Short by</p>
+                        </li>
+                        <li class="navbar-brand">
+                           <input type="text" placeholder="Default" >
+                        </li>
+                      </ul>
+                    
+                  </div>
+                </div>
+              </nav>
+              <div class="row justify-content-center align-items-center g-2 ms -3"
+              >
+              <% imageShop.forEach(function(item) { %>
+                <div class="col-sm-3">
+                  <img src="<%= item.image %>" alt="" style="height: 200px; width: 200px; border-radius: 10px solid black;">
+                  <div class="mt-3">
+                    <h6><%= item.name %></h6>
+                    <a href=""><h4>Read More</h4></a>
+                    <p><i class="bi bi-clock"></i> <%= item.time %> <i class="bi bi-calendar4"></i> <%= item.date %></p>
+                  </div>
+                </div>
+              <% }); %>
+              
+             
+            
+              </div>
+              <ul class="nav justify-content-center">
+                <li class="">
+                  <a class="nav-link active  rounded me-2 " aria-current="page" href="#" style="background-color:  #f9efcf;">1</a>
+                </li>
+                <li class=" rounded me-2 " style="background-color:  #fff9e5;">
+                  <a class="nav-link" href="#">2</a>
+                </li>
+                <li class=" rounded me-2" style="background-color:  #fff9e5;">
+                  <a class="nav-link" href="#">3</a>
+                </li>
+                <li class=" rounded me-2" style="background-color:  #fff9e5;">
+                    <a class="nav-link" href="#">Next</a>
+                  </li>
+              </ul>
+              <div
+                class="row justify-content-center align-items-center g-2 text-center p-5 mt-5" style="background-color: rgb(248, 228, 239);"
+              >
+                <div class="col">
+                    <h1>Free Delivery</h1>
+                    <p>For all oderl over $50, consectetur adipim scing elit. </p>
+                </div>
+                <div class="col">
+                    <h1>90 Days Return</h1>
+                    <p>If goods have problems, consectetur adipim scing elit </p>
+                </div>
+                <div class="col">
+                    <h1>Secure Payment</h1>
+                    <p>100% secure payment, consectetur adipim scing elit. </p>
+                </div>
+                
+              </div>
+              
+        </main> 
+<%- include('layouts/footer') %>
